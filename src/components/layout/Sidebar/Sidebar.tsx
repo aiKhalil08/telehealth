@@ -59,7 +59,7 @@ const Sidebar: FC<SidebarProps> = () => {
                     </ul>
                     <div className='px-6 py-5 flex justify-between gap-1 overflow-hidden items-center'>
                         <div className='flex gap-3 flex-1 items-center'>
-                            <Avatar url={'http://localhost:3000/images/David.png'} />
+                            <Avatar url={'/images/David.png'} />
                             <div className='flex flex-col'>
                                 <span className='text-grey-900 text-sm font-semibold'>Serm Rose</span>
                                 <span className='text-grey-600 text-sm break-all'>sermro18@gmail.com</span>

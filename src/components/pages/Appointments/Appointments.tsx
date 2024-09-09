@@ -24,7 +24,7 @@ const Appointments: FC<AppointmentsProps> = () => {
             doctor: {
                 name: 'Dr. Alison Ogaga',
                 specialty: 'General Practitioner',
-                imageUrl: 'http://localhost:3000/images/Alison.png',
+                imageUrl: '/images/Alison.png',
             },
             address: {
                 name: 'Cottage Medicare Hospital',
@@ -39,7 +39,7 @@ const Appointments: FC<AppointmentsProps> = () => {
             doctor: {
                 name: 'Dr. Jennifer Johnson',
                 specialty: 'Primary Care Physician',
-                imageUrl: 'http://localhost:3000/images/Jennifer.png',
+                imageUrl: '/images/Jennifer.png',
                 online: true,
             },
             address: {
@@ -55,7 +55,7 @@ const Appointments: FC<AppointmentsProps> = () => {
             doctor: {
                 name: 'Dr. Samuel Smith',
                 specialty: 'Mental Health Professional',
-                imageUrl: 'http://localhost:3000/images/Samuel.png',
+                imageUrl: '/images/Samuel.png',
                 online: true
             },
             address: {
@@ -71,7 +71,7 @@ const Appointments: FC<AppointmentsProps> = () => {
             doctor: {
                 name: 'Dr. Lily Chen',
                 specialty: 'Dermatologist',
-                imageUrl: 'http://localhost:3000/images/Lily.png',
+                imageUrl: '/images/Lily.png',
             },
             address: {
                 name: 'First Dominican Hospital',
@@ -86,7 +86,7 @@ const Appointments: FC<AppointmentsProps> = () => {
             doctor: {
                 name: 'Dr. Angela Meryou',
                 specialty: 'Surgeon',
-                imageUrl: 'http://localhost:3000/images/Lily.png',
+                imageUrl: '/images/Lily.png',
             },
             address: {
                 name: 'Crystal Specialist Hospital',

@@ -32,7 +32,7 @@ const Consult: FC<ConsultProps> = () => {
             doctor: {
                 name: 'Dr. Alison Ogaga',
                 specialty: 'General Practitioner',
-                imageUrl: 'http://localhost:3000/images/Alison.png',
+                imageUrl: '/images/Alison.png',
             },
             conversation: {
                 title: 'I\'m feeling uneasy',
@@ -47,7 +47,7 @@ const Consult: FC<ConsultProps> = () => {
             doctor: {
                 name: 'Dr. Jennifer Johnson',
                 specialty: 'Primary Care Physician',
-                imageUrl: 'http://localhost:3000/images/Jennifer.png',
+                imageUrl: '/images/Jennifer.png',
                 online: true,
             },
             conversation: {
@@ -63,7 +63,7 @@ const Consult: FC<ConsultProps> = () => {
             doctor: {
                 name: 'Dr. Samuel Smith',
                 specialty: 'Mental Health Professional',
-                imageUrl: 'http://localhost:3000/images/Samuel.png',
+                imageUrl: '/images/Samuel.png',
                 online: true
             },
             conversation: {
@@ -79,7 +79,7 @@ const Consult: FC<ConsultProps> = () => {
             doctor: {
                 name: 'Dr. Lily Chen',
                 specialty: 'Dermatologist',
-                imageUrl: 'http://localhost:3000/images/Lily.png',
+                imageUrl: '/images/Lily.png',
             },
             conversation: {
                 title: 'I have a rash',

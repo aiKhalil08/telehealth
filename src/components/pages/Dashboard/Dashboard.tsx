@@ -100,7 +100,7 @@ function UpcomingConsultationsWidget() {
                     </div>
                 </div>
                 <div className='flex gap-3'>
-                    <Avatar url={'http://localhost:3000/images/Alison.png'} online={true} size={48} />
+                    <Avatar url={'/images/Alison.png'} online={true} size={48} />
                     <div className='flex flex-col gap-[2px]'>
                         <span className='text-paragraph-medium font-medium text-grey-900'>Dr. Alison Ogaga</span>
                         <span className='text-paragraph-small text-grey-600'>General Practioner </span>
@@ -179,7 +179,7 @@ function ProfileWidget() {
             <hr className='h-[1px] bg-grey-200' />
             <div className='flex grow'>
                 <div className='p-6 flex flex-col gap-3 w-56'>
-                    <Avatar size={64} url={'http://localhost:3000/images/David.png'} />
+                    <Avatar size={64} url={'/images/David.png'} />
                     <div className='flex flex-col gap-2'>
                         <span className='text-paragraph-medium font-semibold text-grey-900'>Serm Rose</span>
                         <span className='text-paragraph-small text-grey-600'>HMO ID: RET/15118/A</span>
@@ -228,11 +228,11 @@ function ProfileWidget() {
 function RecentConsultationsWidget() {
 
     const recentConsultations: Doctor[] = [
-        {name: 'Dr. Alison Ogaga', specialty: 'General Practitioner', online: true, imageUrl: 'http://localhost:3000/images/Alison.png'},
-        {name: 'Dr. Jennifer Johnson', specialty: 'Primary Care Physician', online: false, imageUrl: 'http://localhost:3000/images/Jennifer.png'},
-        {name: 'Dr. Anish Patel', specialty: 'General Practitioner', online: true, imageUrl: 'http://localhost:3000/images/Anish.png'},
-        {name: 'Dr. Samuel Smith', specialty: 'Mental Health Professional', online: false, imageUrl: 'http://localhost:3000/images/Samuel.png'},
-        {name: 'Dr. Lily Chen', specialty: 'Dermatologist', online: true, imageUrl: 'http://localhost:3000/images/Lily.png'},
+        {name: 'Dr. Alison Ogaga', specialty: 'General Practitioner', online: true, imageUrl: '/images/Alison.png'},
+        {name: 'Dr. Jennifer Johnson', specialty: 'Primary Care Physician', online: false, imageUrl: '/images/Jennifer.png'},
+        {name: 'Dr. Anish Patel', specialty: 'General Practitioner', online: true, imageUrl: '/images/Anish.png'},
+        {name: 'Dr. Samuel Smith', specialty: 'Mental Health Professional', online: false, imageUrl: '/images/Samuel.png'},
+        {name: 'Dr. Lily Chen', specialty: 'Dermatologist', online: true, imageUrl: '/images/Lily.png'},
     ];
     return (
         <Widget classes='flex-1 self-start'>

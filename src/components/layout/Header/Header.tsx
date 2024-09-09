@@ -16,7 +16,7 @@ const Header: FC<HeaderProps> = () => {
             </div>
             <div className='flex gap-3'>
                 <img src={notificationsIcon} alt="" />
-                <Avatar url={'http://localhost:3000/images/David.png'} />
+                <Avatar url={'/images/David.png'} />
             </div>
         </header>
     );
